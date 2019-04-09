@@ -147,15 +147,18 @@ function handleStartQuizButton() {
         console.log("handleStartQuizButton ran");
   });
           
-// Event handlers
+/* Event handlers
 function handleAnswerSubmitted() {
   
     // Retrieve answer identifier of user-checked radio button
     // Perform check: User answer === Correct answer?
     // Update STORE and render appropriate section
   
+}*/
+
+function handleTheButtons () {
+    handleStartQuizButton();
+
 }
 
-$(function(){
-    handleAnswerSubmitted();
-});
+handleTheButtons();
