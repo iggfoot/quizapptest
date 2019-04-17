@@ -136,7 +136,7 @@ function questionTemplate(correctAnswers, question, questionsAnswered) {
 
 
 
-// Create your initial store
+/* Create your initial store
 const STORE = {
     // Current question
     // User's answer choice(s)
@@ -144,7 +144,7 @@ const STORE = {
     // Score? Anything else?
     currentView: 
     
-};
+};*/
 
 /* Template generators
 function generateAnswerList(answers) {}
@@ -173,15 +173,15 @@ function render() {
     }
   }*/
 
-$(function(){
+/*$(function(){
     handleAnswerSubmitted();
-});
+});*/
 
 
 //when the start quiz button is clicked, the initial start page vanishes
 //and the first question appears in the 
 function handleStartQuizButton() {
-    $('button').click(function(event) {
+    $('#start-quiz-button').click(function(event) {
         console.log("handleStartQuizButton method ran");
     });
 }
