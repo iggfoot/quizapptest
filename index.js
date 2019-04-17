@@ -143,7 +143,7 @@ function generateAnswerList(answers) {
 function renderQuestionText() {}
 
 function handleStartQuizButton() {
-  $('container').on('click', 'start-quiz-button', function(event) {
+  $('#start-page').on('click', 'start-quiz-button', function(event) {
         console.log("handleStartQuizButton ran");
   });
           
